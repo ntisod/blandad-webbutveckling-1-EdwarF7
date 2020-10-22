@@ -1,4 +1,81 @@
 body{
-    color: lightblue;
-    background-color: darkblue;
+    color: rgb(177, 224, 255);
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+
+}
+
+
+h1{
+    color: rgb(177, 224, 255);
+    border:4px ridge  rgb(177, 224, 255);
+    border-width: 7px;
+    padding: 20px;
+    background-color: rgb(43, 136, 223);
+    box-sizing: border-box;
+    font-size: 30px;
+}
+h2{
+    color: rgb(177, 224, 255);
+    border:4px ridge  rgb(177, 224, 255);
+    border-width: 7px;
+    padding: 20px;
+    background-color: rgb(43, 136, 223);
+    font-size: 26px;
+}  
+h3{
+    color: rgb(177, 224, 255);
+    border:4px ridge  rgb(177, 224, 255);
+    border-width: 7px;
+    padding: 15px;
+    background-color: rgb(43, 136, 223);
+    font-size: 20px;
+}
+
+p{
+    color: rgb(177, 224, 255);
+    background-color: rgb(43, 136, 223);
+    border:4px ridge  rgb(177, 224, 255);
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+div{
+    color: rgb(177, 224, 255);
+    background-color: rgb(43, 136, 223);
+    border:4px ridge  rgb(177, 224, 255);
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+a{
+    color: rgb(232, 246, 255);
+}
+
+img {
+    border: 22px ridge rgb(43, 136, 223);
+    width:200px;
+    position: relative;
+}
+
+hr {
+    color: rgb(177, 224, 255);
+    background-color: rgb(103, 182, 255);
+    border:5px ridge  rgb(77, 184, 255);
+    border-radius: 25px;
+    width: 90%;
+    
+}
+
+ol{
+    border:4px ridge  rgb(177, 224, 255);
+    border-radius: 25px;
+    background-color:rgb(43, 136, 223);
+    padding: 20px;
+    font-size: 18px;
 }
