@@ -1,0 +1,192 @@
+/* element css */
+
+body{
+    /* adjusts the body of the site */
+    color: rgb(199, 233, 255);
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+}
+
+h1{
+    color: rgb(199, 233, 255);
+    border:4px ridge  rgb(199, 233, 255);
+    border-width: 7px;
+    padding: 20px;
+    background-color: rgb(43, 127, 223);
+    box-sizing: border-box;
+    font-size: 30px;
+}
+h2{
+    color: rgb(199, 233, 255);
+    border:3px ridge  rgb(199, 233, 255);
+    border-width: 6px;
+    padding: 15px;
+    background-color: rgb(43, 127, 223);
+    font-size: 22px;
+}  
+h3{
+    color: rgb(182, 226, 255);
+    border:4px ridge  rgb(199, 233, 255);
+    border-width: 7px;
+    padding: 15px;
+    background-color: rgb(43, 127, 223);
+    font-size: 20px;
+}
+
+p{
+    color: rgb(182, 226, 255);
+    background-color: rgb(43, 127, 223);
+    border:4px ridge  rgb(199, 233, 255);
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 18px;
+    max-width: 450px;
+}
+
+a{
+    color: rgb(220, 241, 255);
+    text-decoration: none;
+}
+
+img{
+    border: 22px ridge rgb(43, 127, 223);
+    width:200px;
+    padding: 5px;
+}
+
+hr {
+    color: rgb(199, 233, 255);
+    background-color: rgb(103, 182, 255);
+    border:5px ridge  rgb(77, 184, 255);
+    border-radius: 25px;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+/* semantic css */
+
+nav{
+    float: right;
+    margin-right: 5px;
+    position: sticky;
+    top: 1px;
+}
+
+footer{
+    text-align-last: left;
+}
+
+/* Lists css */
+
+#ol1{
+    border:5px ridge  rgb(199, 233, 255);
+    background-color:rgb(24, 121, 211);
+    border-radius: 5px;
+    padding:10px;
+    font-size: 18px;
+    max-width: 195px;
+    list-style-type:none;
+}
+
+#ol2{
+    border:5px ridge  rgb(199, 233, 255);
+    border-radius: 5px;
+    background-color:rgb(24, 121, 211);
+    padding: 10px;
+    font-size: 18px;
+    max-width: 375px;
+    list-style-position: inside;
+}
+
+#li1, #li2{
+    padding: 9px;
+}
+
+/* Width adjustment */
+
+#E{
+    max-width: 265px
+}
+
+#I{
+    max-width: 195px
+    
+}
+
+#B{
+    max-width: 112px
+}
+
+#F{
+    max-width: 230px
+}
+
+#S{
+    max-width: 165px
+}
+
+#imgE{
+    width: 200px
+}
+
+/* Button css */
+
+.button{
+    color: rgb(199, 233, 255);
+    background-color: rgb(43, 127, 223);
+    border:3px ridge  rgb(199, 233, 255);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.button:hover {
+    background-color: rgb(24, 121, 211);
+    text-decoration: none;
+}
+
+.button:active{
+    border-width: 3px;
+    border-color:  rgb(199, 233, 255);
+}
+
+
+/* text css */
+
+.bakgrundText {
+    float: left;
+}
+
+/* images css */
+
+.SyriaAleppo {
+    display: block;
+
+}
+
+.SyriaAleppo > img{
+    display: block;
+}
+
+/* fig css */
+
+figure {
+    color: rgb(199, 233, 255);
+    background-color: rgb(43, 127, 223);
+    border:5px ridge  rgb(199, 233, 255); 
+    padding: 1px;
+    width: 270px;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 50%;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+
+
