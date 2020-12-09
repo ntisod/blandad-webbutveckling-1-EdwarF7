@@ -4,50 +4,71 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device=width,initial-scale=1.0 ">
         <title> Om mig - Edwar</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="MinSida.css">
         
         <!--Sida skapad av Edwar Fanoun 2020 oktober -->
     </head>
 
     <body>
-        <h1 id="P1" style= "max-width: 265px;">Om mig - Edwar </h1>
-            <h3 style= "max-width: 185px;"> Innehållsförteckning:</h3>
-                <ol style= "max-width: 155px;">
-                    <li><a href="#P1">Om mig - Edwar</a></li>
-                    <li><a href="#P2">Bakgrund</a></li>
-                    <li><a href="#P3">Tankar om framtiden</a></li>
-                    <li><a href="#P4">Mina favoritspel</a></li>
+        <main>
+            <nav class = "sticky">
+                <h2 id="I"> Innehållsförteckning</h2>
+                
+                <ol id= "ol1">
+                        <li id="li1"><a href="#E" class= "button">Om mig - Edwar</a></li>
+                        <li id="li1"><a href="#B" class="button">Bakgrund</a></li>
+                        <li id="li1"><a href="#F" class="button">Tankar om framtiden</a></li>
+                        <li id="li1"><a href="#S" class="button">Mina favoritspel</a></li>
                 </ol>
-        <img style="width: 200px" src="./Me.jpg" alt="bild på Edwar">
-        <h2 id="P2" style= "max-width: 112px;"> Bakgrund </h2>
-            <p> Hej! Jag heter Edwar Fanoun. Min födelsedag är den 27 juli och jag blev 18 år förra sommaren. Jag föddes i Aleppo, Syrien och kom till Sverige i oktober 2015. Jag bor med mina föräldrar och yngre bror. Jag går på NTI gymnasiet i Södertälje. På fritiden gillar jag att spela datorspel, titta på anime och serier och läsa böcker. </p>
-        <h2 id="P3" style= "max-width: 230px;"> Tankar om framtiden </h2>
-            <p> Jag studerar för närvarande Teknik-programmet på NTI gymnasiet och är inte riktigt säker på vad exakt vill jag jobba med i framtiden men jag försöker ta reda på vad jag gillar mest att arbeta med i skolan. </p>
-
-        <h2 id="P4" style= "max-width: 190px;"> Mina favoritspel: </h2>
-
+            </nav>
         
-        <ol style= "max-width: 400px;">
-            <li> Rocket league => <a href= https://www.epicgames.com/store/en-US/product/rocket-league/home target="_blank"> link </a></li>
-            <li> Kingdom Come: Deliverance => <a href= https://store.steampowered.com/app/379430/Kingdom_Come_Deliverance/ target="_blank"> link </a> </li>
-            <li> Monster Hunter: World => <a href=https://store.steampowered.com/app/582010/Monster_Hunter_World/ target="_blank"> link </a> </li>
-            <li> Hades => <a href=https://store.steampowered.com/app/1145360/Hades/ target="_blank"> link </a> </li>              
-            <li> Divinity: Original Sin II - Definitive Edition => <a href=https://store.steampowered.com/app/435150/Divinity_Original_Sin_2__Definitive_Edition/ target="_blank"> link </a> </li>
-        </ol>
+            <header>
+                <h1 id="E">Om mig - Edwar </h1>
+            </header>
+            
 
-        <br />
-        <br />
+            <img id="imgE" src="./Me.jpg" alt="bild på Edwar">
+
+            <h2 id="B"> Bakgrund </h2>
+
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/en/b/b2/Aleppo-map.png" alt="Aleppo Syrien" class = "SyriaAleppo">
+                <figcaption> Aleppo, Syrien.
+                    <br><a href=https://en.wikipedia.org/wiki/File:Aleppo-map.png target="_blank">Bild av LittleDan</a>
+                </figcaption>
+            </figure>
+
+            <p>
+                Hej! Jag heter Edwar Fanoun. Jag föddes 27 juli 2002 i Aleppo, Syrien och kom till Sverige i oktober 2015. Jag bor med mina föräldrar och lille bror. Jag går på<a href="https://www.ntigymnasiet.se/sodertalje/" target="_blank"> NTI gymnasiet</a> i Södertälje. På fritiden gillar jag att spela datorspel, titta på anime och serier, och läsa böcker.
+            </p>
+
+            <h2 id="F"> Tankar om framtiden </h2>
+
+            <p> 
+                Jag studerar för närvarande på Teknik-programmet och är inte riktigt säker på vad exakt vill jag jobba med i framtiden men det jag gillar mest just nu är kodning och software.
+            </p>
+
+
+            <h2 id="S"> Mina favoritspel </h2>
+
+            
+            <ol id= "ol2">
+                <li id="li2"><a href= https://www.epicgames.com/store/en-US/product/rocket-league/home target="_blank" class= "button"> Rocket League </a></li>
+                <li id="li2"><a href= https://store.steampowered.com/app/379430/Kingdom_Come_Deliverance/ target="_blank" class= "button"> Kingdom Come: Deliverance </a> </li>
+                <li id="li2"><a href= https://store.steampowered.com/app/435150/Divinity_Original_Sin_2__Definitive_Edition/ target="_blank" class= "button"> Divinity: Original Sin II - Definitive Edition </a> </li>
+                <li id="li2"><a href= https://store.steampowered.com/app/1145360/Hades/ target="_blank" class= "button"> Hades </a> </li>           
+                <li id="li2"><a href= https://store.steampowered.com/app/582010/Monster_Hunter_World/ target="_blank" class= "button"> Monster Hunter: World </a> </li>
+            </ol>
+        </main> 
+
         <hr>
-        <br />
-        <br />
-    
-        <a href="recept.html" target="_blank">
-            <img style= "width: 150px" alt="En recept" src="./recept.jpg">
-        </a>
-
-        <a href="https://www.ntigymnasiet.se/sodertalje/" target="_blank">
-            <img alt="nti-gymnasiet" src="./NTI.jpg">
-        </a>
-        
+        <footer>
+            <a href="https://www.ntigymnasiet.se/sodertalje/" target="_blank">
+                <img alt="nti-gymnasiet" src="./NTI.jpg">
+            </a>
+            <p>
+            Copyright &copy; 2020 Edwar Fanoun NTI Gymnasiet Södertälje 
+            </p>
+        </footer>
     </body>
 </html>
