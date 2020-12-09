@@ -143,11 +143,13 @@ footer{
     padding: 5px;
 }
 
+/* mouse hover over link */
 .button:hover {
     background-color: rgb(24, 121, 211);
     text-decoration: none;
 }
 
+/* press selected link */
 .button:active{
     border-width: 3px;
     border-color:  rgb(199, 233, 255);

@@ -70,8 +70,12 @@ hr {
 /* Semantics */
 
 footer {
-    position: relative;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
 }
+
 
 /* Lists */
 
@@ -85,17 +89,8 @@ footer {
     list-style-type:none;
 }
 
-#ol2{
-    border:5px ridge  rgb(177, 224, 255);
-    border-radius: 5px;
-    background-color:rgb(24, 121, 211);
-    padding: 10px;
-    font-size: 18px;
-    max-width: 375px;
-    list-style-position: inside;
-}
 
-#li1, #li2{
+#li1{
     padding: 9px;
 }
 
