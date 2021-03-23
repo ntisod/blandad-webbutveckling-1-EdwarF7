@@ -17,6 +17,7 @@ h1{
     background-color: rgb(43, 136, 223);
     box-sizing: border-box;
     font-size: 30px;
+    max-width: 300px;
 }
 h2{
     color: rgb(177, 224, 255);
@@ -51,7 +52,7 @@ a{
 
 img{
     border: 22px ridge rgb(43, 136, 223);
-    width:200px;
+    width:300px;
     position: relative;
     margin: 10px;
 }
