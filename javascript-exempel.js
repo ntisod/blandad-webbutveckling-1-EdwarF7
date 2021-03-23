@@ -1,0 +1,3 @@
+function visaDialog(){
+    alert('Välkommen!');
+}
