@@ -6,6 +6,8 @@
 
 body{
     /* adjusts the body of the site */
+    height: 100%;
+    width: 100%;
     color: rgb(199, 233, 255);
     background-image: url("background.jpg");
     background-repeat: no-repeat;
@@ -91,45 +93,45 @@ footer{
     border-radius: 5px;
     padding:10px;
     font-size: 18px;
-    max-width: 195px;
+    width: 40vh;
     list-style-type:none;
 }
 
-#ol2{
+#ul2{
     border:5px ridge  rgb(199, 233, 255);
     border-radius: 5px;
     background-color:rgb(24, 121, 211);
     padding: 10px;
     font-size: 18px;
-    max-width: 375px;
+    width: 35%;
     list-style-position: inside;
 }
 
-#li1, #li2{
+.li1, .li2{
     padding: 9px;
 }
 
 /* Width adjustment */
 
 #E{
-    max-width: 265px
+    max-width: 275px
 }
 
 #I{
-    max-width: 195px
+    width: 40vh
     
 }
 
 #B{
-    max-width: 112px
+    max-width: 130px
 }
 
 #F{
-    max-width: 230px
+    max-width:240px
 }
 
 #S{
-    max-width: 165px
+    max-width:200px
 }
 
 #imgE{
@@ -170,6 +172,7 @@ footer{
 .SyriaAleppo {
     display: block;
     border: unset;
+
     border: 8px groove rgb(199, 233, 255);
 }
 
@@ -183,7 +186,7 @@ figure {
     color: rgb(199, 233, 255);
     background-color: rgb(43, 127, 223);
     border:5px solid  rgb(199, 233, 255); 
-    padding: 10px;
+    padding: 20px 10px;
     width: 216px;
     position: absolute;
     margin-right: auto;
@@ -193,6 +196,21 @@ figure {
 figure figcaption {
     text-align: center;
 }
+
+/* Grid */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
 
 
