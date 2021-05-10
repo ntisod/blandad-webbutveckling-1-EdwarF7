@@ -253,8 +253,6 @@
             grid-row: 2;
             text-align: right;
             position: relative;
-            left: -2em;
-            width: calc(100% + 2em);
         }
     }
 
