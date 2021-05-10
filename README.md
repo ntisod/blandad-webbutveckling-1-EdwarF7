@@ -1,4 +1,4 @@
-This a educational website for a school task, I was tasked with making a portfolio about myself and to show what I learned about HTML, CSS and Javascript.
+This a educational website for a school task. I was tasked with making a portfolio about myself and to show what I learned about HTML, CSS and Javascript.
 
 I used FontAwesome for the icons at the end of the website.
 
